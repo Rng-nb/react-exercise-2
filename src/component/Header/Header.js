@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropType from 'process';
-import '../Header/Header';
 import './Header.css';
 
 class Header extends Component {
@@ -8,12 +7,12 @@ class Header extends Component {
     return (
       <div className="header">
         <div className="headerdes">Store</div>
-        <div className="productNumber">{this.props.productcount}</div>
+        <div className="productNumber">{this.props.productc}</div>
       </div>
     );
   }
 }
 Header.propTypes = {
-  productcount: PropType.number,
+  productc: PropType.number,
 };
 export default Header;
