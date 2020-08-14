@@ -1,7 +1,11 @@
 @import 'styles/variables.scss';
 
 .app {
-  width: 600px;
-  margin: 80px auto $base-margin auto;
-  background-color: $white;
+  width: 800px;
+  margin: 0px auto;
+  background-color: gainsboro;
+}
+
+.appbody {
+  padding: 20px;
 }
